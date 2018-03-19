@@ -1,0 +1,329 @@
+/************************
+    Entire Page
+************************/
+
+body {
+    background-color: #f4f5f7;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.page {
+    background-color: black;
+    box-shadow: 5px 5px 2.5px #333333;
+}
+
+
+/************************
+    Guild Flag and Nav
+************************/
+
+.banner {
+    background-image: url(/images/guild.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    clear: none;
+}
+
+.heading {
+    width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wedem {
+    color: darkkhaki;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Godfather';
+    src: url(/css/godfather.ttf);
+    font-weight:400;
+}
+
+.wedem p {
+    font-size: 3em;
+    margin-left: 250px;
+    font-family: 'Godfather';
+    height: 0px;
+}
+
+
+/************************
+    Navigation Bar
+************************/
+
+
+ul {
+    -webkit-padding-start: 0px;
+    float: right;
+    width: 560px;
+    background-image: url(/images/banner3.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 560px;
+    clear: none;
+    margin-top: 40px;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold; 
+    border: solid 1px;
+    border-color: black;
+    width: 130px;
+    margin-top: 130px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+li a:hover {
+    color: darkkhaki;
+    background-color: #131001;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.selected {
+    color: darkkhaki;
+}
+
+/************************
+    Ads
+************************/
+
+.adtest {
+    background-image: url(/images/WoW.jpg);
+    float: left;
+    width: 240px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 39px;
+    box-shadow: 5px 5px 2.5px #333333;
+}
+
+.wowlink {
+    display: block;
+    height: 200px;
+    width: 240px;
+}
+
+.adtest2 {
+    background-image: url(/images/WoW.jpg);
+    float: right;
+    width: 240px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 39px;
+    box-shadow: 5px 5px 2.5px #333333;
+}
+
+
+/************************
+    Paragraphs/News
+************************/
+
+
+.phead {
+    font-size: 1.5em;
+}
+
+.newsformat {
+    color: khaki;
+    font-size: 1.1em;
+    width: 550px;
+    background-color: black;
+    font-family: 'Montserrat';
+    box-shadow: 5px 5px 2.5px #333333;
+}
+
+.newsformat2 {
+    color: khaki;
+    font-size: 1.1em;
+    width: 550px;
+    background-color: black;
+    font-family: 'Montserrat';
+    box-shadow: 5px 5px 2.5px #333333;
+}
+
+.text {
+    width: 550px;
+    font-family: 'Montserrat'
+}
+
+.maintext {
+    width: 550px;
+    float: right;
+    margin-left: 
+}
+
+h1 {
+    font-family: 'Bungee Inline';
+}
+
+.gallery {
+    color: khaki;
+    font-size: 1.1em;
+    background-color: black;
+    font-family: 'Montserrat';
+    box-shadow: 5px 5px 2.5px #333333;
+    width: 550px;
+    float: left;
+    margin-top: 39px;
+}
+
+/************************
+    Roster Page
+************************/
+
+.roster {
+    color: khaki;
+    font-size: 1.1em;
+    width: 800px;
+    background-color: black;
+    font-family: 'Montserrat';
+    box-shadow: 5px 5px 2.5px #333333;
+    float: left;
+    margin-top: 39px;
+}
+
+/************************
+    Owlex
+************************/
+
+#owlex {
+    color: khaki;
+    font-size: 1.1em;
+    width: 800px;
+    background-color: black;
+    font-family: 'Montserrat';
+    box-shadow: 5px 5px 2.5px #333333;
+    float: left;
+    margin-top: 39px;
+    background-image: url(/images/owlex.PNG);
+    background-repeat: no-repeat;
+    background-size: 180px;
+}
+
+#owlex a {
+    text-decoration: none;
+    color: white;
+}
+
+#owlex a:hover {
+    color: darkkhaki;
+    background-color: #131001;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+/************************
+    Yetsul
+************************/
+
+#yetsul {
+    color: khaki;
+    font-size: 1.1em;
+    width: 800px;
+    background-color: black;
+    background-position: right;
+    font-family: 'Montserrat';
+    box-shadow: 5px 5px 2.5px #333333;
+    float: right;
+    margin-top: 39px;
+    background-image: url(/images/yetsul.PNG);
+    background-repeat: no-repeat;
+    background-size: 180px
+}
+
+#yetsul a {
+    text-decoration: none;
+    color: white;
+}
+
+#yetsul a:hover {
+    color: darkkhaki;
+    background-color: #131001;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+/************************
+    Raposteak
+************************/
+
+#raposteak {
+    color: khaki;
+    font-size: 1.1em;
+    width: 800px;
+    background-color: black;
+    background-position: left;
+    font-family: 'Montserrat';
+    box-shadow: 5px 5px 2.5px #333333;
+    float: right;
+    margin-top: 39px;
+    background-image: url(/images/raposteak.PNG);
+    background-repeat: no-repeat;
+    background-size: 180px;
+}
+
+#raposteak a {
+    text-decoration: none;
+    color: white;
+}
+
+#raposteak a:hover {
+    color: darkkhaki;
+    background-color: #131001;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+/************************
+    Zilldo
+************************/
+
+#zilldo {
+    color: khaki;
+    font-size: 1.1em;
+    width: 800px;
+    background-color: black;
+    background-position: right;
+    font-family: 'Montserrat';
+    box-shadow: 5px 5px 2.5px #333333;
+    float: right;
+    margin-top: 39px;
+    background-image: url(/images/zilldo.PNG);
+    background-repeat: no-repeat;
+    background-size: 180px;
+}
+
+#zilldo a {
+    text-decoration: none;
+    color: white;
+}
+
+#zilldo a:hover {
+    color: darkkhaki;
+    background-color: #131001;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}

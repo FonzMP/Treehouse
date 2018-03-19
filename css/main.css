@@ -1,0 +1,96 @@
+/************************
+    Entire Page
+************************/
+
+body {
+    background-color: black;
+    vertical-align: middle;
+}
+
+
+/************************
+    Entire "Viewable"
+************************/
+
+.page {
+    text-align: center;
+    max-width: 600px;
+    align-content: center;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    margin-left: -300px;
+    margin-top:-300px;
+}
+
+/************************
+    Guild Banner
+************************/
+
+.guildflag{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+/************************
+    Words "We Dem Boiez"
+************************/
+
+@font-face {
+    font-family: 'Godfather';
+    src: url('/css/godfather.ttf');
+    font-weight:400;
+}
+
+.wedem {
+    font-size: 4em;
+    color: darkkhaki;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Godfather';
+}
+
+
+/************************
+    Navigation Bar
+************************/
+
+.navigation {
+    clear: both;
+    width: 600px;
+}
+
+ul {
+    -webkit-padding-start: 0px;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold; 
+    border: solid 1px;
+    border-color: black;
+    width: 130px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+li a:hover {
+    color: darkkhaki;
+    background-color: #131001;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.selected {
+    color: darkkhaki;
+}
+
